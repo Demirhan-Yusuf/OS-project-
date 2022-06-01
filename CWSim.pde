@@ -23,10 +23,10 @@ void setup() {
   sim = new Simulator();
   myPC=new Hardware(RAMBanks*RAMSizeInBank);
   os = new SOS();
-  FirstFit memoryManager = new FirstFit("*$", "Kernel-FirstFit");
+  //FirstFit memoryManager = new FirstFit("*$", "Kernel-FirstFit");
   //Add here your own memory managers e.g.
   //NextFit memoryManager = new NextFit("*$", "Kernel-NextFit");
-  //BestFit memoryManager = new BestFit("*$", "Kernel-BestFit");
+  BestFit memoryManager = new BestFit("*$", "Kernel-BestFit");
   //WorstFit memoryManager = new WorstFit("*$", "Kernel-WorstFit");
   FCFS scheduler = new FCFS("*$", "Kernel-FCFS");
   //Add here your own process schedulers e.g.
