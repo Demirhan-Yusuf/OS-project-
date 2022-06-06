@@ -1,0 +1,19 @@
+Kernel-SJF
+Kernel-BestFit
+Simulation lasted 624 steps.
+CPU was idle for 9 steps.
+Total time lost in context switch 193
+Total utilisation time 110
+------------Process statistics-------------
+pid, load Time, response Time, turnarround Time
+10, 142, 10, 46
+11, 172, 26, 62
+6, 18, 10, 354
+9, 118, 162, 288
+8, 96, 32, 330
+14, 270, 50, 176
+7, 74, 382, 470
+12, 212, 264, 370
+13, 248, 248, 372
+------------Average statistics-------------
+-- , 150.0, 131.55556, 274.22223
